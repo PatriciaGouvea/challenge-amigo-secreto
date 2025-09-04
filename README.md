@@ -1,6 +1,6 @@
 # Amigo Secreto JS
 <p align="center">
-  <a href="https://github.com/PatriciaGouvea/AmigoSecretoJS/" target="_blank">
+  <a href="https://patriciagouvea.github.io/challenge-amigo-secreto/" target="_blank">
     🔗 Teste o projeto online
   </a>
 </p>
@@ -114,5 +114,3 @@ Este projeto está sob a licença MIT.
   Formação: Oracle NEXT Education (ONE) + Alura
 </p>
 
-
-# desafio-amigo-secreto
