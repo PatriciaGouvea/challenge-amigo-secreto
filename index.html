@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Distressed&display=swap" rel="stylesheet">
+
+    <title>Amigo Secreto</title>
+
+</head>
+
+<body class="home">
+    <main class="main-content">
+        
+        <header class="cabecalho">
+            <nav class="cabecalho_menu">
+                <div class="menu-left">
+
+                    <a class="cabecalho_links" href="index.html"> <img src="assets/icone_home.png" alt="Início"> </a>
+                    
+                    <a class="cabecalho_links" href="about.html"> Sobre o projeto </a>
+                    
+                    <a class="cabecalho_links" href="amigoDinamico.html"> Amigo secreto dinâmico </a>
+
+                </div>
+
+                <div class="menu-right">
+
+                <a class="cabecalho_links" href="contato.html"> Contato </a>
+                
+                </div>
+
+            </nav>
+                
+        </header>
+      
+        <section class="input-section">
+            <h1 class="main-title">Amigo Sorteado</h1>
+
+            <h2 class="section-title">Digite o nome dos seus amigos</h2>
+                <div class="input-wrapper">
+                
+                    <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
+                
+                    <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
+                </div>
+           
+                <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
+
+                <ul id="resultado" class="result-list" aria-live="polite"></ul>
+
+                <div class="button-container">
+                    
+                    <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto"><img src="assets/play_circle_outline.png" alt="Ícone para sortear"> Sortear amigo </button>
+                
+                </div>
+        </section>
+
+        <footer class="footer">
+        
+            <p class="footer-text">Desenvolvido por Patricia Leite Gouvêa | Formação: Oracle NEXT Education (ONE) + Alura</p>
+        </footer>
+
+        <script src="app.js" defer></script>
+    
+    </main>  
+</body>
+</html>

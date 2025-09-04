@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/banner.png" alt="Banner do Projeto Amigo Secreto" width="600px"/>
+  <img src="./assets/banner.png" alt="Banner do Projeto Amigo Secreto" width="600px"/>
 </p>
 
 <p align="center">
@@ -90,12 +90,12 @@ AmigoSecretoJS/
 
 - Amigo Sorteado: captura rápida e simples do sorteio.
 <p align="center">
-  <img src="assets/AmigoSorteado.gif" alt="Demonstração do sorteio" width="600px"/>
+  <img src="./assets/AmigoSorteado.gif" alt="Demonstração do sorteio" width="600px"/>
 </p>
 
 - Amigo Secreto Dinâmico: sorteio seguro, com animações e sigilo.
 <p align="center">
-  <img src="assets/AmigoDinamico.gif" alt="Demonstração do sorteio" width="600px"/>
+  <img src="./assets/AmigoDinamico.gif" alt="Demonstração do sorteio" width="600px"/>
 </p>
 
 
